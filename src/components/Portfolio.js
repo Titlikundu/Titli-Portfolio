@@ -3,7 +3,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
-
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -62,7 +61,6 @@ function Portfolio() {
     ],
   };
   
-
   return (
     <div id="portfolio" className="portfolio">
       <h2 className="portfolio-title">Some of my Works</h2>

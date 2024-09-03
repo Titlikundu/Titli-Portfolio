@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Me from './components/Me';
+import Me from './pages/Me';
 import Feedback from './components/Feedback';
-import Home from './components/Home';
+import Home from './pages/Home';
 import Header from './components/Header';
-import ArtGallery from './components/ArtGallery';
+import ArtGallery from './pages/ArtGallery';
 import Footer from './components/Footer';
-import Contact from './components/Contact';
-import Gears from './components/Gears';
+import Contact from './pages/Contact';
+import Gears from './pages/Gears';
 
 import './App.css'
 

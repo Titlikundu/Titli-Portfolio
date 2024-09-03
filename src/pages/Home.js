@@ -1,8 +1,8 @@
 import React from "react";
-import AboutMe from "./AboutMe";
-import Feedback from "./Feedback";
-import Profile from './Profile';
-import Portfolio from './Portfolio';
+import AboutMe from "../components/AboutMe";
+import Feedback from "../components/Feedback";
+import Profile from '../components/Profile';
+import Portfolio from '../components/Portfolio';
 
 function Home() {
   return (
