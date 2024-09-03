@@ -25,7 +25,7 @@ const Contact = () => {
       position: "top-center", 
       autoClose: 5000, 
     });
-    // Clear form fields
+    
     setFormData({
       name: '',
       email: '',

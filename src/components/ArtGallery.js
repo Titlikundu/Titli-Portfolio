@@ -33,12 +33,6 @@ const artPieces = [
   { id: 29, title: 'Watercolor Piece 10', imgSrc: 'p21.jpeg', category: 'Watercolor Paintings' },
   { id: 30, title: 'Watercolor Piece 11', imgSrc: 'pc7.jpeg', category: 'Watercolor Paintings' },
 
-
-
-  
-
-  
-  // Add more pieces as needed
 ];
 
 const categories = ['All', 'Watercolor Paintings', 'Pastel Paintings' ,'Oil Paintings', 'Pattachitra', 'pencil sketch' , 'creative Paintings' , 'Paper collage' ];
@@ -55,7 +49,6 @@ const ArtGallery = () => {
     setSelectedArt(null);
   };
 
-  // Filter art pieces based on the selected category
   const filteredArtPieces = selectedCategory === 'All'
     ? artPieces
     : artPieces.filter(art => art.category === selectedCategory);
@@ -68,7 +61,7 @@ const ArtGallery = () => {
 
   return (
     <section id="Art" className="gallery">
-      <h1 className="gallery-heading">Welcome to My Galleria</h1>
+      <h1 className="gallery-heading">Welcome to My Gallery</h1>
 
       {/* Category Filter Buttons */}
       <div className="category-filters">

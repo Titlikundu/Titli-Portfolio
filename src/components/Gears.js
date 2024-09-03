@@ -1,8 +1,5 @@
-// src/Gears.js
-
 import React, { useState } from 'react';
 
-// Modal component
 const Modal = ({ isOpen, onClose, content }) => {
   if (!isOpen) return null;
 
@@ -16,7 +13,7 @@ const Modal = ({ isOpen, onClose, content }) => {
   );
 };
 
-// Gear data
+
 const gearData = [
   {
     id: 1,

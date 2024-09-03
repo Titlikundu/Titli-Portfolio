@@ -1,7 +1,5 @@
-// src/components/Me.js
-
 import React from 'react';
-import { FaPaintBrush, FaPalette, FaPencilAlt, FaArtstation } from 'react-icons/fa'; // Import some icons
+import { FaPaintBrush, FaPalette, FaPencilAlt, FaArtstation } from 'react-icons/fa'; 
 
 const Me = () => {
   return (

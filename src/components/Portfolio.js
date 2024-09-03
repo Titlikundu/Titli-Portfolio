@@ -30,9 +30,9 @@ function Portfolio() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500, // Faster transition (0.5 seconds)
+    speed: 500, 
     autoplay: true,
-    autoplaySpeed: 1000, // Faster autoplay (2 seconds)
+    autoplaySpeed: 1000, 
     slidesToShow: 4,
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,

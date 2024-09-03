@@ -18,7 +18,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/titli-kundu-0417a6271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"  // Update with your LinkedIn profile URL
+            href="https://www.linkedin.com/in/titli-kundu-0417a6271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"  
             target="_blank"
             rel="noopener noreferrer"
             className="icon-link"
@@ -27,7 +27,7 @@ const Footer = () => {
             <FaLinkedin className="icon" />
           </a>
           <a
-            href="https://github.com/Titlikundu"  // Update with your GitHub profile URL
+            href="https://github.com/Titlikundu"  
             target="_blank"
             rel="noopener noreferrer"
             className="icon-link"

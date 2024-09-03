@@ -1,12 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 function Header() {
+  
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const handleMenuToggle = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <header className="header">
-     
+      <a href="/">
+        <img src="logo.png" alt="Logo" className="logo" />
+      </a>
+      <button className="mobile-menu-button" onClick={handleMenuToggle}>
+        ☰
+      </button>
       <nav>
-      <a href="/"><img src="logo.png" alt="Logo" className="logo" /></a>
-        <ul className="nav-links">
+        <ul className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
           <li><a href="/about">About me</a></li>
           <li><a href="/art-gallery">Art Gallery</a></li>
           <li><a href="/gears">Gears</a></li>

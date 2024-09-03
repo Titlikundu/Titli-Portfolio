@@ -1,4 +1,3 @@
-// Home.js
 import React from "react";
 import AboutMe from "./AboutMe";
 import Feedback from "./Feedback";
